@@ -1,0 +1,72 @@
+[04-Aug-2021 11:45:55 UTC] PHP Warning:  Division by zero in C:\Users\rayndra\Local Sites\rayndra\app\public\wp-admin\includes\class-custom-image-header.php on line 1278
+[04-Aug-2021 11:45:55 UTC] PHP Stack trace:
+[04-Aug-2021 11:45:55 UTC] PHP   1. {main}() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-admin\admin-ajax.php:0
+[04-Aug-2021 11:45:55 UTC] PHP   2. do_action() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-admin\admin-ajax.php:187
+[04-Aug-2021 11:45:55 UTC] PHP   3. WP_Hook->do_action() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\plugin.php:470
+[04-Aug-2021 11:45:55 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\class-wp-hook.php:327
+[04-Aug-2021 11:45:55 UTC] PHP   5. Custom_Image_Header->ajax_header_crop() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\class-wp-hook.php:303
+[04-Aug-2021 11:45:55 UTC] PHP   6. Custom_Image_Header->get_header_dimensions() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-admin\includes\class-custom-image-header.php:1384
+[04-Aug-2021 12:21:47 UTC] PHP Recoverable fatal error:  Object of class WP_Error could not be converted to string in C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\inc\breadcrumb.php on line 98
+[04-Aug-2021 12:21:47 UTC] PHP Stack trace:
+[04-Aug-2021 12:21:47 UTC] PHP   1. {main}() C:\Users\rayndra\Local Sites\rayndra\app\public\index.php:0
+[04-Aug-2021 12:21:47 UTC] PHP   2. require() C:\Users\rayndra\Local Sites\rayndra\app\public\index.php:17
+[04-Aug-2021 12:21:47 UTC] PHP   3. require_once() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-blog-header.php:19
+[04-Aug-2021 12:21:47 UTC] PHP   4. include() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template-loader.php:106
+[04-Aug-2021 12:21:47 UTC] PHP   5. get_header() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\single.php:10
+[04-Aug-2021 12:21:47 UTC] PHP   6. locate_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\general-template.php:48
+[04-Aug-2021 12:21:47 UTC] PHP   7. load_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:716
+[04-Aug-2021 12:21:47 UTC] PHP   8. require_once() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:770
+[04-Aug-2021 12:21:47 UTC] PHP   9. get_template_part() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\header.php:44
+[04-Aug-2021 12:21:47 UTC] PHP  10. locate_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\general-template.php:204
+[04-Aug-2021 12:21:47 UTC] PHP  11. load_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:716
+[04-Aug-2021 12:21:47 UTC] PHP  12. require() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:772
+[04-Aug-2021 12:21:47 UTC] PHP  13. cleanportfolio_breadcrumb() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\template-parts\header\breadcrumb.php:11
+[04-Aug-2021 12:21:47 UTC] PHP  14. str_replace() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\inc\breadcrumb.php:98
+[04-Aug-2021 12:21:52 UTC] PHP Recoverable fatal error:  Object of class WP_Error could not be converted to string in C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\inc\breadcrumb.php on line 98
+[04-Aug-2021 12:21:52 UTC] PHP Stack trace:
+[04-Aug-2021 12:21:52 UTC] PHP   1. {main}() C:\Users\rayndra\Local Sites\rayndra\app\public\index.php:0
+[04-Aug-2021 12:21:52 UTC] PHP   2. require() C:\Users\rayndra\Local Sites\rayndra\app\public\index.php:17
+[04-Aug-2021 12:21:52 UTC] PHP   3. require_once() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-blog-header.php:19
+[04-Aug-2021 12:21:52 UTC] PHP   4. include() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template-loader.php:106
+[04-Aug-2021 12:21:52 UTC] PHP   5. get_header() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\single.php:10
+[04-Aug-2021 12:21:52 UTC] PHP   6. locate_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\general-template.php:48
+[04-Aug-2021 12:21:52 UTC] PHP   7. load_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:716
+[04-Aug-2021 12:21:52 UTC] PHP   8. require_once() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:770
+[04-Aug-2021 12:21:52 UTC] PHP   9. get_template_part() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\header.php:44
+[04-Aug-2021 12:21:52 UTC] PHP  10. locate_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\general-template.php:204
+[04-Aug-2021 12:21:52 UTC] PHP  11. load_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:716
+[04-Aug-2021 12:21:52 UTC] PHP  12. require() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:772
+[04-Aug-2021 12:21:52 UTC] PHP  13. cleanportfolio_breadcrumb() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\template-parts\header\breadcrumb.php:11
+[04-Aug-2021 12:21:52 UTC] PHP  14. str_replace() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\inc\breadcrumb.php:98
+[04-Aug-2021 12:22:26 UTC] PHP Recoverable fatal error:  Object of class WP_Error could not be converted to string in C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\inc\breadcrumb.php on line 98
+[04-Aug-2021 12:22:26 UTC] PHP Stack trace:
+[04-Aug-2021 12:22:26 UTC] PHP   1. {main}() C:\Users\rayndra\Local Sites\rayndra\app\public\index.php:0
+[04-Aug-2021 12:22:26 UTC] PHP   2. require() C:\Users\rayndra\Local Sites\rayndra\app\public\index.php:17
+[04-Aug-2021 12:22:26 UTC] PHP   3. require_once() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-blog-header.php:19
+[04-Aug-2021 12:22:26 UTC] PHP   4. include() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template-loader.php:106
+[04-Aug-2021 12:22:26 UTC] PHP   5. get_header() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\single.php:10
+[04-Aug-2021 12:22:26 UTC] PHP   6. locate_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\general-template.php:48
+[04-Aug-2021 12:22:26 UTC] PHP   7. load_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:716
+[04-Aug-2021 12:22:26 UTC] PHP   8. require_once() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:770
+[04-Aug-2021 12:22:26 UTC] PHP   9. get_template_part() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\header.php:44
+[04-Aug-2021 12:22:26 UTC] PHP  10. locate_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\general-template.php:204
+[04-Aug-2021 12:22:26 UTC] PHP  11. load_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:716
+[04-Aug-2021 12:22:26 UTC] PHP  12. require() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:772
+[04-Aug-2021 12:22:26 UTC] PHP  13. cleanportfolio_breadcrumb() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\template-parts\header\breadcrumb.php:11
+[04-Aug-2021 12:22:26 UTC] PHP  14. str_replace() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\inc\breadcrumb.php:98
+[04-Aug-2021 12:22:34 UTC] PHP Recoverable fatal error:  Object of class WP_Error could not be converted to string in C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\inc\breadcrumb.php on line 98
+[04-Aug-2021 12:22:34 UTC] PHP Stack trace:
+[04-Aug-2021 12:22:34 UTC] PHP   1. {main}() C:\Users\rayndra\Local Sites\rayndra\app\public\index.php:0
+[04-Aug-2021 12:22:34 UTC] PHP   2. require() C:\Users\rayndra\Local Sites\rayndra\app\public\index.php:17
+[04-Aug-2021 12:22:34 UTC] PHP   3. require_once() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-blog-header.php:19
+[04-Aug-2021 12:22:34 UTC] PHP   4. include() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template-loader.php:106
+[04-Aug-2021 12:22:34 UTC] PHP   5. get_header() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\single.php:10
+[04-Aug-2021 12:22:34 UTC] PHP   6. locate_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\general-template.php:48
+[04-Aug-2021 12:22:34 UTC] PHP   7. load_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:716
+[04-Aug-2021 12:22:34 UTC] PHP   8. require_once() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:770
+[04-Aug-2021 12:22:34 UTC] PHP   9. get_template_part() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\header.php:44
+[04-Aug-2021 12:22:34 UTC] PHP  10. locate_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\general-template.php:204
+[04-Aug-2021 12:22:34 UTC] PHP  11. load_template() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:716
+[04-Aug-2021 12:22:34 UTC] PHP  12. require() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-includes\template.php:772
+[04-Aug-2021 12:22:34 UTC] PHP  13. cleanportfolio_breadcrumb() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\template-parts\header\breadcrumb.php:11
+[04-Aug-2021 12:22:34 UTC] PHP  14. str_replace() C:\Users\rayndra\Local Sites\rayndra\app\public\wp-content\themes\cleanportfolio\inc\breadcrumb.php:98
